@@ -9,7 +9,7 @@ The only thing you need is a real iPhone or iPad and some software tools as ment
 In these days of corona virus I was facing an issue for using a webcam on my laptop. I did not have one on my laptop installed. So I started to write a simple app and server to sent the video frames recorded on my iphone to my laptop.
 
 As I was looking on some example I found out that most of them were using RSTP protocol. Because I do not want to implement
-this protocol I decided to sent the frames over sockets. Searching in cocoapods I found the BlueSocket library a very good
+this protocol I decided to sent the frames over **sockets**. Searching in cocoapods I found the BlueSocket library a very good
 candidate for sending data over sockets to my server.
 
 Lets talk on the application on how it is build and what software I used.
