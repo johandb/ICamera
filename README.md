@@ -12,7 +12,7 @@ As I was looking on some example I found out that most of them were using RSTP p
 this protocol I decided to sent the frames over **sockets**. Searching in cocoapods I found the BlueSocket library a very good
 candidate for sending data over sockets to my server.
 
-Lets talk on the application on how it is build and what software I used.
+Lets talk about the application how it is build and what software I used.
 
 **This application comes in three parts**
 - The app for recording the video, using swift on IOS
