@@ -107,7 +107,7 @@ Congratulations.
 
 ## Part 4 - Virtual Camera Device
 
-The fun part is thar your video window on your server can used as input in the SplitCamera software.
+The fun part is that your video window on your server can be used as input in the SplitCamera software.
 
 You can download this software from
 
@@ -117,7 +117,7 @@ http://splitcamera.com/
 
 It is very easy to use. Just add a screen capture and select the window frame from your java server.
 
-Now you can use your camera in for example **Microsoft Teams**
+Now you can use your camera in an application like **Microsoft Teams**
 
 I hope all works as expected
 
