@@ -38,6 +38,15 @@ The following software and devices are used
   http://splitcamera.com/
   
   https://splitcam.com/download
+  
+## TODO
+
+Below is a todo list what features must be implemented
+
+- remove hard coded port numbers, search the network
+- compression sending package
+- build a windows installer
+- Add your own feature :)
 
 ## Part 1 : The app
 
