@@ -9,12 +9,12 @@ The only thing you need is a real iPhone or iPad and some software tools as ment
 In these days of corona virus I was facing an issue for using a webcam on my laptop. I did not have one on my laptop installed. So I started to write a simple app and server to sent the video frames recorded on my iphone to my laptop.
 
 As I was looking on some example I found out that most of them were using RSTP protocol. Because I do not want to implement
-this protocol I decided to sent the frames over sockets. Searching in cocoapods I found the BlueSocket library a very good
+this protocol I decided to sent the frames over **sockets**. Searching in cocoapods I found the BlueSocket library a very good
 candidate for sending data over sockets to my server.
 
-Lets talk on the application on how it is build and what software I used.
+Lets talk about the application how it is build and what software I used.
 
-**This application comes in three parts**
+**This application comes in four parts**
 - The app for recording the video, using swift on IOS
 - The server side written in Java, for receiving the video frames as png files and display it in a JFrame window
 - Running the app
@@ -38,6 +38,15 @@ The following software and devices are used
   http://splitcamera.com/
   
   https://splitcam.com/download
+  
+## TODO
+
+Below is a todo list what features must be implemented
+
+- remove hard coded port numbers, search the network
+- compression sending package
+- build a windows installer
+- Add your own feature :)
 
 ## Part 1 : The app
 
