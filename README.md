@@ -26,7 +26,7 @@ The following software and devices are used
 
 - Iphone Xs
 
-- Mac OSX 10.15
+- Mac OSX 10.15+ (Catalina)
 - IOS 13+
 - Swift 5.1
 
@@ -67,8 +67,9 @@ Next, You must modify the ViewController class and change the ip adres to some a
 within your wifi network. As default there is the host address : 192.168.1.10 but you
 must change it to your network. Also you can change the port number for sending the package.
 The default port number is 9000.
-**If you find problems on sending packages on app or server side maybe you have to open the
-port number in your firewall**
+
+**If you find problems on connecting from your app to your server check your ports on 
+your firewall. You also have to check portforwaring from your router to your server ip address.**
 
 Connect your iphone using your usb cable.
 
