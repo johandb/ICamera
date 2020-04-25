@@ -8,6 +8,7 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.URL;
 import java.util.Arrays;
 
 public class CameraServer extends JFrame {
@@ -24,7 +25,9 @@ public class CameraServer extends JFrame {
 
         this.setLayout(new BoxLayout(this.getContentPane(), BoxLayout.PAGE_AXIS));
 
-        icon = new ImageIcon("camera.png");
+        URL url = getClass().getResource("/camera.png");
+        icon = new ImageIcon(url);
+
         this.imageLabel = new JLabel(icon);
         this.add(imageLabel, BorderLayout.CENTER);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
