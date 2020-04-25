@@ -14,7 +14,7 @@ candidate for sending data over sockets to my server.
 
 Lets talk about the application how it is build and what software I used.
 
-**This application comes in three parts**
+**This application comes in four parts**
 - The app for recording the video, using swift on IOS
 - The server side written in Java, for receiving the video frames as png files and display it in a JFrame window
 - Running the app
