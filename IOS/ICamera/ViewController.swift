@@ -18,8 +18,9 @@ class ViewController: UIViewController {
     
     private var saved = false
     
-    let host = "192.168.2.3"
-    //let host = "169.254.202.75"
+	// Change this to your own ip address
+    let host = "192.168.1.10"
+	// Change this to the port number you want
     let port: Int32 = 9000
     var socket: Socket?
 
