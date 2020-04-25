@@ -111,6 +111,7 @@ The fun part is thar your video window on your server can used as input in the S
 You can download this software from
 
 https://splitcam.com/download
+
 http://splitcamera.com/
 
 It is very easy to use. Just add a screen capture and select the window frame from your java server.
