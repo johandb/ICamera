@@ -87,7 +87,13 @@ which you can use to start the server.
 You must specify the port number where your server is listening for incoming data. For example 
 you can start the server using the command.
 
-**java CameraServer 9000**
+Build the icamera jar file with :
+
+**mvn clean package**
+
+change to the folder **target**
+
+**java -jar icamera.jar 9000**
 
 This means the server is listening for data packets on port 9000.
 
